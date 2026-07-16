@@ -9,7 +9,7 @@
 ╚═╝  ╚═╝╚══════╝ ╚═════╝      ╚═╝╚═╝╚══════╝
 ```
 
-💀 **MALWARE DEVELOPER · WINDOWS INTERNALS · MALDEV ACADEMY** 💀
+ **MALWARE DEVELOPER · WINDOWS INTERNALS · MALDEV ACADEMY** 
 
 </div>
 
