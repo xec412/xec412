@@ -9,7 +9,7 @@
 ╚═╝  ╚═╝╚══════╝ ╚═════╝      ╚═╝╚═╝╚══════╝
 ```
 
- **MALWARE DEVELOPER · WINDOWS INTERNALS · MALDEV ACADEMY** 
+ **LEARNING EXPLOIT DEVELOPMENT · WINDOWS KERNEL INTERNALS · KERNEL EXPLOITATION** 
 
 </div>
 
@@ -21,9 +21,8 @@ root@xec412:~$ cat whoami.txt
 
 ```ini
 age        = 18
-focus      = "Malware Development & Windows Internals"
+focus      = "Exploit Development & Windows Kernel Internals"
 experience = "9 months deep in the rabbit hole"
-academy    = "MalDev Academy"
 ```
 
 ---
