@@ -9,7 +9,7 @@
 ╚═╝  ╚═╝╚══════╝ ╚═════╝      ╚═╝╚═╝╚══════╝
 ```
 
- **LEARNING EXPLOIT DEVELOPMENT · WINDOWS KERNEL INTERNALS** Previously focused on Malware Development · Now going deeper into the kernel
+ **LEARNING EXPLOIT DEVELOPMENT | WINDOWS KERNEL INTERNALS | REVERSE ENGINEERING** 
 
 </div>
 
