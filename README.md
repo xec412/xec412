@@ -9,7 +9,7 @@
 ╚═╝  ╚═╝╚══════╝ ╚═════╝      ╚═╝╚═╝╚══════╝
 ```
 
- **LEARNING EXPLOIT DEVELOPMENT | WINDOWS KERNEL INTERNALS | REVERSE ENGINEERING** 
+ **LEARNING MALWARE DEVELOPMENT | WINDOWS INTERNALS | C2 FRAMEWORK ARCHITECTURE** 
 
 </div>
 
@@ -21,8 +21,8 @@ root@xec412:~$ cat whoami.txt
 
 ```ini
 age          = 18
-focus        = "Exploit Development & Windows Kernel Internals"
-background   = "Switched from Malware Development"
+focus        = "Malware Development & Windows Internals"
+academy      = "Maldev Academy"
 experience   = "9+ months deep into the low-level side"
 status       = "Actively learning & building"
 ```
