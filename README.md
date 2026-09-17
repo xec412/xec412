@@ -24,7 +24,7 @@ age          = 18
 focus        = "Malware Development & Windows Internals"
 academy      = "Maldev Academy"
 experience   = "9+ months deep into the low-level side"
-status       = "Building a C2 framework"
+status       = "Learning Rust"
 ```
 
 ---
