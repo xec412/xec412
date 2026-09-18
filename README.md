@@ -12,7 +12,7 @@
 
 ---
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&pause=50&color=D4A017&multiline=true&repeat=false&width=650&height=158&duration=450&lines=root%40xec412%3A~%24+whoami;age+%3D+18;focus+%3D+%22Malware+Dev+%26+Windows+Internals%22;academy+%3D+%22Maldev+Academy%22;experience+%3D+%2210+months+deep+into+the+low-level+side%22;status+%3D+%22Learning+Rust%22" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&pause=50&color=D4A017&multiline=true&repeat=false&width=650&height=140&duration=450&lines=root%40xec412%3A~%24+whoami;Age+%3D+18;Focus+%3D+%22Malware+Dev+%26+Windows+Internals%22;Academy+%3D+%22Maldev+Academy%22;Experience+%3D+%2210+months+deep+into+the+low-level+side%22;Status+%3D+%22Learning+Rust%22" />
 
 ---
 
