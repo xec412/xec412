@@ -20,20 +20,13 @@
 
 <div align="center">
 
-<code>// LANGUAGES</code>
+<img src="https://skillicons.dev/icons?i=c,go&theme=dark" />
+<br>
+<img src="https://img.shields.io/badge/x64_MASM-0C0606?style=flat-square&logoColor=C0392B" />
 
 <br><br>
 
-<img src="https://img.shields.io/badge/C-1A0808?style=for-the-badge&logo=c&logoColor=D4A017" />
-<img src="https://img.shields.io/badge/x64_MASM-0C0606?style=for-the-badge&logoColor=C0392B" />
-<img src="https://img.shields.io/badge/Go-060810?style=for-the-badge&logo=go&logoColor=29B6D8" />
-
-<br><br>
-
-<code>// CURRENTLY LEARNING</code>
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Rust_%5BACTIVE%5D-120F03?style=for-the-badge&logo=rust&logoColor=ECC060" />
+<sub><b>currently learning</b></sub><br>
+<img src="https://skillicons.dev/icons?i=rust&theme=dark" />
 
 </div>
