@@ -1,24 +1,19 @@
-<div align="center">
-<pre>
+```
 ██╗  ██╗███████╗ ██████╗ ██╗  ██╗██╗██████╗ 
 ╚██╗██╔╝██╔════╝██╔════╝ ██║  ██║██║╚════██╗
  ╚███╔╝ █████╗  ██║      ███████║██║ █████╔╝
  ██╔██╗ ██╔══╝  ██║      ╚════██║██║██╔═══╝ 
 ██╔╝ ██╗███████╗╚██████╗      ██║██║███████╗
 ╚═╝  ╚═╝╚══════╝ ╚═════╝      ╚═╝╚═╝╚══════╝
-</pre>
+```
 
+<div align="center">
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&pause=2000&color=D4A017&center=true&vCenter=true&repeat=true&width=700&lines=Malware+Development+%7C+Windows+Internals;C2+Framework+Architecture+%7C+Low-Level+Systems;10+months+deep+into+the+low-level+side;Currently+learning+Rust..." />
-
 </div>
 
 ---
 
-```
-root@xec412:~$ cat whoami.txt
-```
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=14&pause=700&color=3FB950&multiline=true&repeat=false&width=530&height=155&duration=2500&lines=age+%3D+18;focus+%3D+%22Malware+Dev+%26+Windows+Internals%22;academy+%3D+%22Maldev+Academy%22;experience+%3D+%2210+months+deep+into+the+low-level+side%22;status+%3D+%22Learning+Rust%22" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=14&pause=250&color=3FB950&multiline=true&repeat=false&width=620&height=185&duration=1500&lines=root%40xec412%3A~%24+cat+whoami.txt;age+%3D+18;focus+%3D+%22Malware+Dev+%26+Windows+Internals%22;academy+%3D+%22Maldev+Academy%22;experience+%3D+%2210+months+deep+into+the+low-level+side%22;status+%3D+%22Learning+Rust%22" />
 
 ---
 
