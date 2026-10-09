@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 72">
+  <defs>
+    <linearGradient id="wL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#4a2535" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#6a3548" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="wR" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#6a3548" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#4a2535" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#3d1f2c" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#4a2535" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="bR" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#4a2535" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3d1f2c" stop-opacity="0.2"/>
+    </linearGradient>
+    <radialGradient id="cGlow" cx="50%" cy="50%" r="40%">
+      <stop offset="0%"   stop-color="#3a0f1c" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1a0f13" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="72" fill="#1a0f13"/>
+  <rect width="1200" height="72" fill="url(#cGlow)"/>
+
+  <!-- TOP TRIPLE BORDER -->
+  <line x1="0" y1="2"  x2="600" y2="2"  stroke="url(#bL)" stroke-width="0.8"/>
+  <line x1="600" y1="2"  x2="1200" y2="2"  stroke="url(#bR)" stroke-width="0.8"/>
+  <line x1="0" y1="6"  x2="600" y2="6"  stroke="url(#bL)" stroke-width="2.2"/>
+  <line x1="600" y1="6"  x2="1200" y2="6"  stroke="url(#bR)" stroke-width="2.2"/>
+  <line x1="0" y1="11" x2="600" y2="11" stroke="url(#bL)" stroke-width="0.8"/>
+  <line x1="600" y1="11" x2="1200" y2="11" stroke="url(#bR)" stroke-width="0.8"/>
+
+  <!-- BOTTOM TRIPLE BORDER -->
+  <line x1="0" y1="61" x2="600" y2="61" stroke="url(#bL)" stroke-width="0.8"/>
+  <line x1="600" y1="61" x2="1200" y2="61" stroke="url(#bR)" stroke-width="0.8"/>
+  <line x1="0" y1="66" x2="600" y2="66" stroke="url(#bL)" stroke-width="2.2"/>
+  <line x1="600" y1="66" x2="1200" y2="66" stroke="url(#bR)" stroke-width="2.2"/>
+  <line x1="0" y1="71" x2="600" y2="71" stroke="url(#bL)" stroke-width="0.8"/>
+  <line x1="600" y1="71" x2="1200" y2="71" stroke="url(#bR)" stroke-width="0.8"/>
+
+  <!-- ═══ LEFT WING (tip at x=195) ═══ -->
+  <!-- Fill area -->
+  <path d="M 6,6 L 62,6 L 195,36 L 62,66 L 6,66 Z" fill="#1e1018" stroke="none"/>
+  <!-- Upper wing line -->
+  <path d="M 6,6 L 62,6 L 195,36" stroke="url(#wL)" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <!-- Lower wing line -->
+  <path d="M 6,66 L 62,66 L 195,36" stroke="url(#wL)" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <!-- Inner accent upper -->
+  <path d="M 6,6 L 62,6 L 185,36" stroke="#3d1f2c" stroke-width="1" fill="none" stroke-linejoin="round" opacity="0.7"/>
+  <!-- Inner accent lower -->
+  <path d="M 6,66 L 62,66 L 185,36" stroke="#3d1f2c" stroke-width="1" fill="none" stroke-linejoin="round" opacity="0.7"/>
+  <!-- Corner diamonds -->
+  <polygon points="6,2 14,6 6,10 -2,6"   fill="#5a2f40"/>
+  <polygon points="6,62 14,66 6,70 -2,66" fill="#5a2f40"/>
+  <!-- Horizontal top segment thorn -->
+  <polygon points="62,2 70,6 62,10 54,6" fill="#4a2535" opacity="0.9"/>
+  <!-- Diagonal upper wing thorns (upper line: 62,6 → 195,36) -->
+  <line x1="102" y1="14" x2="98"  y2="22" stroke="#5a2f40" stroke-width="1.8"/>
+  <line x1="113" y1="16" x2="110" y2="23" stroke="#4a2535" stroke-width="1.3"/>
+  <line x1="140" y1="21" x2="136" y2="28" stroke="#5a2f40" stroke-width="1.8"/>
+  <line x1="151" y1="23" x2="148" y2="29" stroke="#4a2535" stroke-width="1.3"/>
+  <line x1="170" y1="26" x2="166" y2="32" stroke="#5a2f40" stroke-width="1.6"/>
+  <!-- Diagonal lower wing thorns -->
+  <line x1="102" y1="58" x2="98"  y2="50" stroke="#5a2f40" stroke-width="1.8"/>
+  <line x1="113" y1="56" x2="110" y2="49" stroke="#4a2535" stroke-width="1.3"/>
+  <line x1="140" y1="51" x2="136" y2="44" stroke="#5a2f40" stroke-width="1.8"/>
+  <line x1="151" y1="49" x2="148" y2="43" stroke="#4a2535" stroke-width="1.3"/>
+  <line x1="170" y1="46" x2="166" y2="40" stroke="#5a2f40" stroke-width="1.6"/>
+  <!-- Wing tip diamond -->
+  <polygon points="195,31 204,36 195,41 186,36" fill="#7a3d52"/>
+
+  <!-- ═══ RIGHT WING (tip at x=1005) ═══ -->
+  <path d="M 1194,6 L 1138,6 L 1005,36 L 1138,66 L 1194,66 Z" fill="#1e1018" stroke="none"/>
+  <path d="M 1194,6  L 1138,6  L 1005,36" stroke="url(#wR)" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <path d="M 1194,66 L 1138,66 L 1005,36" stroke="url(#wR)" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <path d="M 1194,6  L 1138,6  L 1015,36" stroke="#3d1f2c" stroke-width="1" fill="none" stroke-linejoin="round" opacity="0.7"/>
+  <path d="M 1194,66 L 1138,66 L 1015,36" stroke="#3d1f2c" stroke-width="1" fill="none" stroke-linejoin="round" opacity="0.7"/>
+  <polygon points="1194,2 1202,6 1194,10 1186,6"   fill="#5a2f40"/>
+  <polygon points="1194,62 1202,66 1194,70 1186,66" fill="#5a2f40"/>
+  <polygon points="1138,2 1146,6 1138,10 1130,6" fill="#4a2535" opacity="0.9"/>
+  <!-- Right wing thorns -->
+  <line x1="1098" y1="14" x2="1102" y2="22" stroke="#5a2f40" stroke-width="1.8"/>
+  <line x1="1087" y1="16" x2="1090" y2="23" stroke="#4a2535" stroke-width="1.3"/>
+  <line x1="1060" y1="21" x2="1064" y2="28" stroke="#5a2f40" stroke-width="1.8"/>
+  <line x1="1049" y1="23" x2="1052" y2="29" stroke="#4a2535" stroke-width="1.3"/>
+  <line x1="1030" y1="26" x2="1034" y2="32" stroke="#5a2f40" stroke-width="1.6"/>
+  <line x1="1098" y1="58" x2="1102" y2="50" stroke="#5a2f40" stroke-width="1.8"/>
+  <line x1="1087" y1="56" x2="1090" y2="49" stroke="#4a2535" stroke-width="1.3"/>
+  <line x1="1060" y1="51" x2="1064" y2="44" stroke="#5a2f40" stroke-width="1.8"/>
+  <line x1="1049" y1="49" x2="1052" y2="43" stroke="#4a2535" stroke-width="1.3"/>
+  <line x1="1030" y1="46" x2="1034" y2="40" stroke="#5a2f40" stroke-width="1.6"/>
+  <polygon points="1005,31 1014,36 1005,41 996,36" fill="#7a3d52"/>
+
+  <!-- SEPARATOR DIAMONDS (between text segments) -->
+  <!-- These are SVG polygons, not unicode chars — guaranteed to render -->
+  <polygon points="476,30 486,36 476,42 466,36" fill="#7a3d52"/>
+  <polygon points="724,30 734,36 724,42 714,36" fill="#6a3548"/>
+
+  <!-- ══════════════════════ TEXT ══════════════════════ -->
+  <!-- Three segments positioned so they don't overlap wings or diamonds -->
+  <!-- Wing tips at x=195 and x=1005; diamonds at x=476 and x=724 -->
+  <!-- Text 1: x=210 to ~462, center=336 -->
+  <text x="336" y="42"
+        text-anchor="middle"
+        font-family="'Courier New', monospace"
+        font-size="13"
+        font-weight="700"
+        letter-spacing="4"
+        fill="#cc3348">MALWARE DEVELOPER</text>
+
+  <!-- Text 2: x=490 to ~710, center=600 -->
+  <text x="600" y="42"
+        text-anchor="middle"
+        font-family="'Courier New', monospace"
+        font-size="13"
+        font-weight="700"
+        letter-spacing="4"
+        fill="#cc3348">WINDOWS INTERNALS</text>
+
+  <!-- Text 3: x=738 to ~994, center=866 -->
+  <text x="866" y="42"
+        text-anchor="middle"
+        font-family="'Courier New', monospace"
+        font-size="13"
+        font-weight="700"
+        letter-spacing="4"
+        fill="#cc3348">LOW-LEVEL ENGINEER</text>
+</svg>
