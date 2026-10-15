@@ -1,5 +1,5 @@
 <div align="center">
-<img src="banner.png" width="100%"/>
+<img src="xecbanner.png" width="100%"/>
 <br/>
 <img src="subtitle.svg"/>
 <br/>
