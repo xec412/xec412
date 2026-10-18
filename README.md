@@ -1,5 +1,5 @@
 <div align="center">
-<img src="upscaled.png" width="100%"/>
+<img src="upscaledbanner.png" width="100%"/>
 <br/>
 <img src="subtitle.svg"/>
 <br/>
