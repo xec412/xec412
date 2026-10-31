@@ -1,9 +1,9 @@
 <div align="center">
 <img src="image.jpg" width="100%"/>
 <br/>
-<img src="sbttle.svg"/>
+<img src="subtitle.svg"/>
 <br/>
-<img src="dvdr.svg" width="100%"/>
+<img src="divider.svg" width="100%"/>
 </div>
 
 <br/>
