@@ -1,5 +1,5 @@
 <div align="center">
-<img src="banner_github.jpg" width="100%"/>
+<img src="img.jpg" width="100%"/>
 <br/>
 <img src="subtitles.svg"/>
 <br/>
