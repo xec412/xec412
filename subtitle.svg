@@ -1,0 +1,73 @@
+<svg width="900" height="56" viewBox="0 0 900 56" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#23070c" stop-opacity="0"/>
+      <stop offset="12%"  stop-color="#23070c" stop-opacity="0.97"/>
+      <stop offset="50%"  stop-color="#2b1315" stop-opacity="1"/>
+      <stop offset="88%"  stop-color="#23070c" stop-opacity="0.97"/>
+      <stop offset="100%" stop-color="#23070c" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#9a2731" stop-opacity="0"/>
+      <stop offset="22%"  stop-color="#9a2731" stop-opacity="0.85"/>
+      <stop offset="50%"  stop-color="#d73b46" stop-opacity="1"/>
+      <stop offset="78%"  stop-color="#9a2731" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#9a2731" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#d73b46" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#571f27" stop-opacity="0.4"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="textglow" x="-10%" y="-60%" width="120%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- panel -->
+  <rect x="0" y="4" width="900" height="48" fill="url(#bg)" rx="2"/>
+
+  <!-- top / bottom border lines -->
+  <rect x="0" y="4"  width="900" height="1.2" fill="url(#border)"/>
+  <rect x="0" y="51" width="900" height="1.2" fill="url(#border)"/>
+
+  <!-- side accent bars -->
+  <rect x="82" y="4" width="1.5" height="48" fill="url(#accent)"/>
+  <rect x="816" y="4" width="1.5" height="48" fill="url(#accent)"/>
+
+  <!-- left butterfly -->
+  <g transform="translate(54,28)" filter="url(#glow)" opacity="0.88">
+    <ellipse cx="-10" cy="-5.5" rx="9"   ry="4.5" fill="#9a2731" transform="rotate(-24,-10,-5.5)"/>
+    <ellipse cx="-10" cy="5.5"  rx="6.5" ry="3"   fill="#571f27" transform="rotate(24,-10,5.5)"/>
+    <ellipse cx="-10" cy="-5.5" rx="5"   ry="2.5" fill="#d73b46" transform="rotate(-24,-10,-5.5)" opacity="0.55"/>
+    <line x1="0" y1="-8" x2="0" y2="8" stroke="#fcf9d8" stroke-width="0.85" opacity="0.6"/>
+    <!-- antenna -->
+    <line x1="0" y1="-8" x2="-4" y2="-13" stroke="#fcf9d8" stroke-width="0.5" opacity="0.35"/>
+    <line x1="0" y1="-8" x2="2"  y2="-13" stroke="#fcf9d8" stroke-width="0.5" opacity="0.35"/>
+  </g>
+
+  <!-- right butterfly (mirror) -->
+  <g transform="translate(846,28) scale(-1,1)" filter="url(#glow)" opacity="0.88">
+    <ellipse cx="-10" cy="-5.5" rx="9"   ry="4.5" fill="#9a2731" transform="rotate(-24,-10,-5.5)"/>
+    <ellipse cx="-10" cy="5.5"  rx="6.5" ry="3"   fill="#571f27" transform="rotate(24,-10,5.5)"/>
+    <ellipse cx="-10" cy="-5.5" rx="5"   ry="2.5" fill="#d73b46" transform="rotate(-24,-10,-5.5)" opacity="0.55"/>
+    <line x1="0" y1="-8" x2="0" y2="8" stroke="#fcf9d8" stroke-width="0.85" opacity="0.6"/>
+    <line x1="0" y1="-8" x2="-4" y2="-13" stroke="#fcf9d8" stroke-width="0.5" opacity="0.35"/>
+    <line x1="0" y1="-8" x2="2"  y2="-13" stroke="#fcf9d8" stroke-width="0.5" opacity="0.35"/>
+  </g>
+
+  <!-- text -->
+  <text x="450" y="34"
+        font-family="'Georgia', 'Palatino Linotype', serif"
+        font-size="13.5"
+        font-weight="400"
+        letter-spacing="4.5"
+        text-anchor="middle"
+        fill="#fcf9d8"
+        filter="url(#textglow)"
+        opacity="0.92">WINDOWS INTERNALS · MALWARE DEVELOPMENT · OFFENSIVE-TOOLING</text>
+</svg>

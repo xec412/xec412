@@ -1,0 +1,50 @@
+<svg width="900" height="32" viewBox="0 0 900 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#23070c" stop-opacity="0"/>
+      <stop offset="18%"  stop-color="#9a2731" stop-opacity="0.9"/>
+      <stop offset="50%"  stop-color="#d73b46" stop-opacity="1"/>
+      <stop offset="82%"  stop-color="#9a2731" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#23070c" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#23070c" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#dd5958" stop-opacity="0.10"/>
+      <stop offset="50%"  stop-color="#dd5958" stop-opacity="0.20"/>
+      <stop offset="80%"  stop-color="#dd5958" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#23070c" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- soft glow halo -->
+  <rect x="0" y="10" width="900" height="12" fill="url(#glow)" rx="6"/>
+  <!-- main line -->
+  <rect x="0" y="15" width="900" height="2" fill="url(#line)" rx="1"/>
+
+  <!-- center diamond -->
+  <polygon points="450,9 457,16 450,23 443,16" fill="#9a2731"/>
+  <polygon points="450,11 455,16 450,21 445,16" fill="#d73b46"/>
+  <polygon points="450,13 453,16 450,19 447,16" fill="#dd5958"/>
+
+  <!-- left butterfly -->
+  <g transform="translate(392,16)" opacity="0.82">
+    <ellipse cx="-9" cy="-4.5" rx="7.5" ry="3.5" fill="#9a2731"  transform="rotate(-22,-9,-4.5)"/>
+    <ellipse cx="-9" cy="4.5"  rx="5.5" ry="2.5" fill="#571f27"  transform="rotate(22,-9,4.5)"/>
+    <ellipse cx="-9" cy="-4.5" rx="4"   ry="2"   fill="#d73b46"  transform="rotate(-22,-9,-4.5)" opacity="0.5"/>
+    <line x1="0" y1="-7" x2="0" y2="7" stroke="#fcf9d8" stroke-width="0.7" opacity="0.55"/>
+  </g>
+
+  <!-- right butterfly (mirror) -->
+  <g transform="translate(508,16) scale(-1,1)" opacity="0.82">
+    <ellipse cx="-9" cy="-4.5" rx="7.5" ry="3.5" fill="#9a2731"  transform="rotate(-22,-9,-4.5)"/>
+    <ellipse cx="-9" cy="4.5"  rx="5.5" ry="2.5" fill="#571f27"  transform="rotate(22,-9,4.5)"/>
+    <ellipse cx="-9" cy="-4.5" rx="4"   ry="2"   fill="#d73b46"  transform="rotate(-22,-9,-4.5)" opacity="0.5"/>
+    <line x1="0" y1="-7" x2="0" y2="7" stroke="#fcf9d8" stroke-width="0.7" opacity="0.55"/>
+  </g>
+
+  <!-- flanking dots -->
+  <circle cx="338" cy="16" r="1.8" fill="#9a2731" opacity="0.65"/>
+  <circle cx="358" cy="16" r="1.1" fill="#d73b46" opacity="0.45"/>
+  <circle cx="562" cy="16" r="1.8" fill="#9a2731" opacity="0.65"/>
+  <circle cx="542" cy="16" r="1.1" fill="#d73b46" opacity="0.45"/>
+</svg>
