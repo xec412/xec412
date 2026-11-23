@@ -1,0 +1,38 @@
+<svg width="1200" height="30" viewBox="0 0 1200 30" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Pure black background -->
+  <rect width="1200" height="30" fill="#030303"/>
+
+  <!-- Main divider line — left segment -->
+  <line x1="0" y1="15" x2="568" y2="15" stroke="#1e1e1e" stroke-width="0.9"/>
+  <!-- Main divider line — right segment -->
+  <line x1="632" y1="15" x2="1200" y2="15" stroke="#1e1e1e" stroke-width="0.9"/>
+
+  <!-- Secondary thin line above (double-rule effect) -->
+  <line x1="0" y1="12.5" x2="560" y2="12.5" stroke="#141414" stroke-width="0.5"/>
+  <line x1="640" y1="12.5" x2="1200" y2="12.5" stroke="#141414" stroke-width="0.5"/>
+
+  <!-- ══ CENTER ORNAMENT ══ -->
+  <!-- Outer diamond -->
+  <polygon points="600,5 630,15 600,25 570,15" fill="#030303" stroke="#2e2e2e" stroke-width="1"/>
+  <!-- Inner diamond ring -->
+  <polygon points="600,8 622,15 600,22 578,15" fill="none" stroke="#1e1e1e" stroke-width="0.6"/>
+
+  <!-- Scythe inside diamond — handle (vertical) -->
+  <line x1="600" y1="9.5" x2="600" y2="21" stroke="#404040" stroke-width="1"/>
+  <!-- Handle foot -->
+  <line x1="596" y1="21" x2="604" y2="21" stroke="#363636" stroke-width="0.9"/>
+  <!-- Blade sweeping right from handle top -->
+  <path d="M600,9.5 Q619,8.5 620,15 Q621,19.5 609,20.5 Q601,21 599.5,17"
+        fill="none" stroke="#6a6a6a" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Ring at blade–handle join -->
+  <circle cx="600" cy="9.5" r="1.8" fill="none" stroke="#505050" stroke-width="0.8"/>
+
+  <!-- Flanking dots — close -->
+  <circle cx="554" cy="15" r="1.8" fill="#222222"/>
+  <circle cx="646" cy="15" r="1.8" fill="#222222"/>
+  <!-- Flanking dots — far -->
+  <circle cx="534" cy="15" r="1.1" fill="#181818"/>
+  <circle cx="666" cy="15" r="1.1" fill="#181818"/>
+
+</svg>
