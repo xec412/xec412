@@ -1,9 +1,9 @@
 <div align="center">
-<img src="image.jpg" width="100%"/>
+<img src="ban.jpg" width="100%"/>
 <br/>
-<img src="subtitle.svg"/>
+<img src="mxqr.svg"/>
 <br/>
-<img src="divider.svg" width="100%"/>
+<img src="krvt.svg" width="100%"/>
 </div>
 
 <br/>
